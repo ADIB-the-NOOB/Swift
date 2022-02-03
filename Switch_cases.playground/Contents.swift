@@ -1,12 +1,12 @@
-import UIKit
-
 var someCharacter:Character = "c"
 
 switch someCharacter {
-    case "a":
-        print("is an A")
-    case "b":
-       print("is a B")
-    default:
-        print("some Fallback")
+case "a":
+    print("The first letter of the alphabet")
+case "c":
+    print("is a C")
+default:
+    print("some Fallback")
 }
+
+
